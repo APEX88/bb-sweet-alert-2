@@ -33,7 +33,7 @@ prompt APPLICATION 103 - APEX OCI AI
 -- Application Export:
 --   Application:     103
 --   Name:            APEX OCI AI
---   Date and Time:   15:00 Monday September 23, 2024
+--   Date and Time:   15:20 Monday September 23, 2024
 --   Exported By:     DEMO
 --   Flashback:       0
 --   Export Type:     Component Export
@@ -65,7 +65,7 @@ wwv_flow_imp_shared.create_plugin(
 ,p_render_function=>'bbe_plugin.render'
 ,p_standard_attributes=>'ONLOAD:STOP_EXECUTION_ON_ERROR:WAIT_FOR_RESULT:INIT_JAVASCRIPT_CODE'
 ,p_substitute_attributes=>true
-,p_version_scn=>41134223705023
+,p_version_scn=>41134224816108
 ,p_subscribe_plugin_settings=>true
 ,p_help_text=>wwv_flow_string.join(wwv_flow_t_varchar2(
 'An Oracle APEX dynamic action plug-in built on top of the SweetAlert2 library. ',
@@ -79,7 +79,7 @@ wwv_flow_imp_shared.create_plugin(
 'https://sweetalert2.github.io/'))
 ,p_files_version=>49
 ,p_created_on=>wwv_flow_imp.dz('20240919093403Z')
-,p_updated_on=>wwv_flow_imp.dz('20240923145934Z')
+,p_updated_on=>wwv_flow_imp.dz('20240923152027Z')
 );
 wwv_flow_imp_shared.create_plugin_attribute(
  p_id=>wwv_flow_imp.id(14479066018431917)
@@ -104,10 +104,11 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_prompt=>'Message'
 ,p_attribute_type=>'TEXT'
 ,p_is_required=>true
+,p_default_value=>'my message ....'
 ,p_is_translatable=>true
 ,p_help_text=>'The required message of the Alert'
 ,p_created_on=>wwv_flow_imp.dz('20240919093543Z')
-,p_updated_on=>wwv_flow_imp.dz('20240919104945Z')
+,p_updated_on=>wwv_flow_imp.dz('20240923152020Z')
 );
 wwv_flow_imp_shared.create_plugin_attribute(
  p_id=>wwv_flow_imp.id(14479660059434409)
@@ -278,13 +279,13 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>8
 ,p_display_sequence=>80
-,p_prompt=>'Confirm Button'
+,p_prompt=>'OK Button'
 ,p_attribute_type=>'CHECKBOX'
 ,p_is_required=>false
-,p_default_value=>'N'
+,p_default_value=>'Y'
 ,p_is_translatable=>false
 ,p_created_on=>wwv_flow_imp.dz('20240919140021Z')
-,p_updated_on=>wwv_flow_imp.dz('20240919143203Z')
+,p_updated_on=>wwv_flow_imp.dz('20240923151610Z')
 );
 wwv_flow_imp_shared.create_plugin_attribute(
  p_id=>wwv_flow_imp.id(14557677973023436)
@@ -292,16 +293,17 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>9
 ,p_display_sequence=>90
-,p_prompt=>'Confirm Label'
+,p_prompt=>'OK Label'
 ,p_attribute_type=>'TEXT'
 ,p_is_required=>false
+,p_default_value=>'OK'
 ,p_is_translatable=>true
 ,p_depending_on_attribute_id=>wwv_flow_imp.id(14556920222020354)
 ,p_depending_on_has_to_exist=>true
 ,p_depending_on_condition_type=>'EQUALS'
 ,p_depending_on_expression=>'Y'
 ,p_created_on=>wwv_flow_imp.dz('20240919140052Z')
-,p_updated_on=>wwv_flow_imp.dz('20240919140128Z')
+,p_updated_on=>wwv_flow_imp.dz('20240923151903Z')
 );
 wwv_flow_imp_shared.create_plugin_attribute(
  p_id=>wwv_flow_imp.id(14568734471130597)
@@ -309,16 +311,17 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>10
 ,p_display_sequence=>100
-,p_prompt=>'Confirm Color'
+,p_prompt=>'OK Color'
 ,p_attribute_type=>'COLOR'
 ,p_is_required=>false
+,p_default_value=>'#3085d6'
 ,p_is_translatable=>false
 ,p_depending_on_attribute_id=>wwv_flow_imp.id(14556920222020354)
 ,p_depending_on_has_to_exist=>true
 ,p_depending_on_condition_type=>'EQUALS'
 ,p_depending_on_expression=>'Y'
 ,p_created_on=>wwv_flow_imp.dz('20240919141844Z')
-,p_updated_on=>wwv_flow_imp.dz('20240919141844Z')
+,p_updated_on=>wwv_flow_imp.dz('20240923151935Z')
 );
 wwv_flow_imp_shared.create_plugin_attribute(
  p_id=>wwv_flow_imp.id(15940165875712100)
