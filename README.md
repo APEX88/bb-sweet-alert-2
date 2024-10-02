@@ -3,7 +3,7 @@
 An awesome highly configurable dynamic action plug-in for showing Alert messages in your APEX application.
 
 ## Oracle APEX Installation
-* Run the db object located in db directory "bbe_plugin_sa" header and body in your workspace.
+* Compile the db object located in db directory "bbe_plugin_sa" header and body in your workspace.
 * Import the apex plugin file located in apex directory "dynamic_action_plugin_bbe_sweet_alert.sql" in your workspace.
 
 ## Features
@@ -24,18 +24,15 @@ Date | Version | Description |
 ### Known Issues
 * 
 
-### Support 
-Thank you for choosing my plug-in! I'm happy to provide support for the plugin free of charge. 
-
 ### About Authors
 Author | LinkedIn | E-mail
 -------|-------|-------
 Badreddine Belahrach | https://www.linkedin.com/in/b-b-79aba032/ | badr.belahrach@gmail.com
 
 ### Demo
-Demo application :
+* Demo application :
 https://ga6313932124758-ljqey8gg9dfe8a0m.adb.uk-london-1.oraclecloudapps.com/ords/r/demo/apex-plugins/plugin-sweet-alert
-Credentiel : (plugin / plugin)
+* Credentiel : (plugin / plugin)
 User : plugin / Password : plugin
 
 ### Licence 
