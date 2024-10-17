@@ -7,19 +7,19 @@ An awesome highly configurable dynamic action plug-in for showing Alert messages
 * Import the apex plugin file located in apex directory "dynamic_action_plugin_bbe_sweet_alert.sql" in your workspace.
 
 ## Features
-* 9 positions to display the popup
-* Predefined Icon list
+* Predefined Icon list (Success, Error, Warning, Information, Question)
 * custom Icon list from Font APEX
-* Customize color, background color and label
+* Customize color, background color and OK label
+* 9 positions to display the popup
+* Auto close Timer and Timer Progress Bar
 
 ## Roadmap
-* Confirm Button, Cancel Button
 * Background as Image
 
 ## Version
 Date | Version | Description |
 -------|-------|---------|
-23/09/2024 |1.0.0| First release |
+10/10/2024 |1.0.0| First release |
 
 ### Known Issues
 * 
