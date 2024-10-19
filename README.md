@@ -41,3 +41,7 @@ https://github.com/user-attachments/assets/c1e9b682-8497-4570-8a79-af2ef380bebc
 
 ### Licence 
 This is licensed under the MIT license. 
+
+### Credit
+
+This plugin based on the open source sweetalert2 https://github.com/sweetalert2/sweetalert2
