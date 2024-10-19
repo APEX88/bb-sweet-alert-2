@@ -1,6 +1,6 @@
 ![](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/b7e95341/badges/apex-plugin-badge.svg) ![](https://img.shields.io/badge/Plug--In%20Type-Dynamic%20Action-red) ![](https://img.shields.io/badge/APEX-21.*-brightgreen) ![](https://img.shields.io/badge/APEX-22.*-brightgreen) ![](https://img.shields.io/badge/APEX-23.*-brightgreen) ![](https://img.shields.io/badge/APEX-24.*-brightgreen) ![](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/7919f913/badges/apex-love-badge.svg)
 # bbe-sweet-alert-2
-An awesome highly configurable dynamic action plug-in for showing Alert messages in your APEX application.
+An awesome configurable dynamic action plug-in for showing alert notification messages in your APEX application.
 
 ## Oracle APEX Installation
 * Compile the db object located in db directory "bbe_plugin_sa" header and body in your workspace.
