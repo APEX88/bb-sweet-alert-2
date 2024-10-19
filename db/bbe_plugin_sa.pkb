@@ -4,6 +4,7 @@ AS
     -- This package is used to render the DA Sweet Alert Plugin
     -- 
     -- Author  : Badreddine Belahrach - (BBE) 
+    -- Date    ; 10/10/2024
     -- Version : 1.0
     -------------------------------------------------------------------------
 
@@ -34,7 +35,7 @@ AS
     l_result.attribute_02          := p_dynamic_action.attribute_02;
     l_result.attribute_03          := p_dynamic_action.attribute_03;
     l_result.attribute_04          := p_dynamic_action.attribute_04;
-    l_result.attribute_05          :=  case when (p_dynamic_action.attribute_03 is null and p_dynamic_action.attribute_05 is not null) then
+    l_result.attribute_05          :=  case when (p_dynamic_action.attribute_05 is not null) then
                                         '<span aria-hidden="true" class="'||p_dynamic_action.attribute_05||'"></span>' 
                                         --APEX_ESCAPE.HTML_WHITELIST(p_dynamic_action.attribute_05,l_html_whitelist_tags); 
                                        else null
@@ -43,7 +44,10 @@ AS
     l_result.attribute_08          := p_dynamic_action.attribute_08;
     l_result.attribute_09          := p_dynamic_action.attribute_09;
     l_result.attribute_10          := p_dynamic_action.attribute_10;
-    l_result.attribute_11          := p_dynamic_action.attribute_11;
+    l_result.attribute_11          := case when (p_dynamic_action.attribute_08 = 'N') then
+                                        p_dynamic_action.attribute_11
+                                       else null
+                                       end;
     l_result.attribute_12          := p_dynamic_action.attribute_12;
     l_result.attribute_13          := p_dynamic_action.attribute_13;
     l_result.attribute_14          := case when (p_dynamic_action.attribute_14 is null) then

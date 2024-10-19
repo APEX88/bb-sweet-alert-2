@@ -1,9 +1,10 @@
 create or replace PACKAGE bbe_plugin
 AS
     -------------------------------------------------------------------------
-    -- This package is used to render the DA Sweet Alert Plugin
+    -- This package is used to render the DA Plugin
     -- 
     -- Author  : Badreddine Belahrach - (BBE)  
+    -- Date    ; 10/10/2024
     -- Version : 1.0
     -------------------------------------------------------------------------
 
