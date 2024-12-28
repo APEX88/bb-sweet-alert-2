@@ -31,9 +31,9 @@ Badreddine Belahrach | https://www.linkedin.com/in/b-b-79aba032/ | badr.belahrac
 
 ### Demo
 * Demo application :
-https://ga6313932124758-ljqey8gg9dfe8a0m.adb.uk-london-1.oraclecloudapps.com/ords/r/demo/apex-plugins/plugin-sweet-alert
-* Credentiel : (plugin / plugin)
-User : plugin / Password : plugin
+https://apex.oracle.com/pls/apex/r/poc_workspace/apex-plugins
+* Credentiel : (plugin / plugin123)
+User : plugin / Password : plugin123
 
 
 https://github.com/user-attachments/assets/c1e9b682-8497-4570-8a79-af2ef380bebc
